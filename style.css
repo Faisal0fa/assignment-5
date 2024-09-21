@@ -315,7 +315,7 @@
   width: 286px;
   height: 31px;
 }
- @media screen and (min-width: 200px) and (max-width: 768px) {   /* and (max-width: 768px) */
+ @media screen and (min-width: 300px) and (max-width: 768px) {   /* and (max-width: 768px) */
   /* For mobile phones: */
   /* .banner-conatiner, .img-banner,
   .myimg .modal,.cdf-table01,.cdf-012
