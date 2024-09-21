@@ -1,4 +1,6 @@
-
+/* body{
+  width: 100%;
+} */
 .img-banner{
     max-width: 736px;
     height: 218px;
@@ -313,10 +315,10 @@
   width: 286px;
   height: 31px;
 }
-@media screen and (min-width: 300px) and (max-width: 992px){
+ @media screen and (min-width: 300px) and (max-width: 1960px) {   /* and (max-width: 768px) */
   /* For mobile phones: */
   .banner-conatiner, .img-banner,
-  .cdf-myimg, .modal,.cdf-table01,.cdf-012
+  .myimg .modal,.cdf-table01,.cdf-012
    { 
     width: 100%;
   } 
