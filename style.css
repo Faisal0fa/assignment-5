@@ -153,13 +153,13 @@
  .cdf-05{
     color: rgb(204, 0, 0);
  }
- .cdf-table01{
+ /* .cdf-table01{
     border: 1;
-    width: 628px;
+    width: 100%;
     border-collapse: 1;
     border-spacing: 1;
     margin-left: 340px;
- }
+ } */
  .cdf-td1{
     background: #000080;
     column-span: 4;
@@ -315,19 +315,17 @@
   width: 286px;
   height: 31px;
 }
- @media screen and (min-width: 300px) and (max-width: 1960px) {   /* and (max-width: 768px) */
+ @media screen and (min-width: 200px) and (max-width: 768px) {   /* and (max-width: 768px) */
   /* For mobile phones: */
-  .banner-conatiner, .img-banner,
+  /* .banner-conatiner, .img-banner,
   .myimg .modal,.cdf-table01,.cdf-012
-   { 
-    width: 100%;
-  } 
+ {} */
   .img-banner{
     width: 100%;
   }
   .cdf-table01{
-    width: 100%;
-    margin-left: 0px;
+    width: 50%;
+    /* margin-left: 0px; */
   }
  .cdf-text{
   width: 100%;
@@ -348,6 +346,6 @@
   width: 100%;
 }
 .cdf-012{
-  width: 100%;
+  width: 50%;
 }
 }
